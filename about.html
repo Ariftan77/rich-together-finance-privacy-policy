@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richer - Money Management</title>
+    <meta name="description"
+        content="Richer is your ultimate companion for smart personal finance, budgeting, and expense tracking.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-gradient"></div>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero glass-panel">
+            <div class="logo-container">
+                <span class="logo-emoji">💰</span>
+            </div>
+            <h1 class="app-title">Richer</h1>
+            <p class="tagline">Money Management App</p>
+            <div class="version-badge">Version 1.0.0</div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 class="section-title">Features</h2>
+            <div class="features-grid">
+                <div class="feature-chip">
+                    <span class="emoji">📊</span>
+                    <span class="text">Expense Tracking</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">💰</span>
+                    <span class="text">Budgeting</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">📈</span>
+                    <span class="text">Analytics</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">🎯</span>
+                    <span class="text">Financial Goals</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">📋</span>
+                    <span class="text">Debt Management</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">🔄</span>
+                    <span class="text">Recurring Transactions</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">💱</span>
+                    <span class="text">Multi-Currency</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">👥</span>
+                    <span class="text">Multi-Profile</span>
+                </div>
+                <div class="feature-chip">
+                    <span class="emoji">🔒</span>
+                    <span class="text">Offline First</span>
+                </div>
+
+                <!-- Coming Soon -->
+                <div class="feature-chip coming-soon">
+                    <span class="emoji">📉</span>
+                    <span class="text">Investments <i>(Coming Soon)</i></span>
+                </div>
+                <div class="feature-chip coming-soon">
+                    <span class="emoji">☁️</span>
+                    <span class="text">Cloud Sync <i>(Coming Soon)</i></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Developer Info -->
+        <section class="developer-info">
+            <div class="info-card glass-panel">
+                <div class="info-icon">👨‍💻</div>
+                <div class="info-content">
+                    <span class="info-label">Developer</span>
+                    <span class="info-value">Arif Tan</span>
+                </div>
+            </div>
+            <div class="info-card glass-panel">
+                <div class="info-icon">✉️</div>
+                <div class="info-content">
+                    <span class="info-label">Contact</span>
+                    <a href="mailto:axiomtech.dev@gmail.com" class="info-value link">axiomtech.dev@gmail.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; <span id="year"></span> Arif Tan. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
